@@ -47,11 +47,12 @@ public class RandomPermutation
       num=num+1;
     }
 
-    return horseList;
-   }
+    System.out.print(horseList);
 
-   public static void horseRand(ArrayList<Horse> horseList) {
-    ArrayList<String> pairings = new ArrayList();
-    
+    for (int x = 0; x < horseList.size(); x += 2) {
+      System.out.println(horseList.get(x).getName() + " " + horseList.get(x+1).getName());
+    }
+
+    return null;
    }
-}
+  }
