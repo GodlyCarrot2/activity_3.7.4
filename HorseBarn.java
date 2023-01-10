@@ -4,7 +4,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
-java.util.*;
+import java.util.*;
 
 /**
  *  A class to manage the location of horses in a barn.
