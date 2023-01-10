@@ -49,6 +49,11 @@ public class RandomPermutation
 
     System.out.print(horseList);
 
+    int c = horseList.size() % 2;
+    if (c==1) {
+      horseList.add(new Horse("N/A", 1000000000));
+    }
+
     for (int x = 0; x < horseList.size(); x += 2) {
       System.out.println(horseList.get(x).getName() + " " + horseList.get(x+1).getName());
     }
