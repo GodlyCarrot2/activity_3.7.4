@@ -38,9 +38,12 @@ public class RandomPermutation
 
     while (num < horseList.size()) {
 
-      int rand = (int) (Math.random()*horseList.size())
+      int rand = (int) (Math.random()*horseList.size());
 
       Horse name = horseList.get(rand);
+      horseList.set(rand, horseList.get(num));
+      horseList.set(num, name);
+
       num=num+1;
     }
 
@@ -48,6 +51,7 @@ public class RandomPermutation
    }
 
    public static void horseRand(ArrayList<Horse> horseList) {
-
+    ArrayList<String> pairings = new ArrayList();
+    
    }
 }
