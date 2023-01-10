@@ -1,3 +1,4 @@
+java.util.*;
 /**********************************************************************
  * Sample solution for Activity 3.6.4
  **********************************************************************/
@@ -6,13 +7,9 @@
  */
 public class RandomPermutation
 {
-  /**
-   * Genereates one permutation of random integers. The number of
-   * integers to generate is designated by length and the
-   * randomized list of integers is returned.
-   *
-   * Initial conditions: length cannot be negative
-   */
+  
+  HorseBarn horseBarn = new HorseBarn();
+
    public static int[] next(int length)
    {
       int[] r = new int[length];
@@ -31,5 +28,8 @@ public class RandomPermutation
       // debug: System.out.println(java.util.Arrays.toString(r));
       return r;
    }
-
+  
+  public static int cowRand() {
+    return int
+  }
 }

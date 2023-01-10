@@ -4,6 +4,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
+java.util.*;
 
 /**
  *  A class to manage the location of horses in a barn.
@@ -62,4 +63,6 @@ public class HorseBarn
   {
     return spaces;
   }
+
+
 }
